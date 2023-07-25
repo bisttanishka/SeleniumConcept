@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Pack of Login">
+  <test name="My Fisrt TestNg">
+    <classes>
+      <class name="MyPracticeSelenium.facebookSignUp"/>
+      <class name="MyPracticeSelenium.DropDrown_1"/>
+      <class name="MyPracticeSelenium.fileUpload"/>
+    </classes>
+  </test> <!-- My Fisrt TestNg -->
+</suite> <!-- Suite -->
