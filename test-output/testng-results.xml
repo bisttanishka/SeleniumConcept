@@ -1,55 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-29T19:14:59 IST" name="Suite1" finished-at="2023-07-29T19:15:10 IST" duration-ms="11334">
+  <suite started-at="2023-08-25T16:53:25 IST" name="Default suite" finished-at="2023-08-25T16:53:25 IST" duration-ms="29">
     <groups>
     </groups>
-    <test started-at="2023-07-29T19:14:59 IST" name="Testonchrome" finished-at="2023-07-29T19:15:10 IST" duration-ms="11243">
-      <class name="MyPracticeSelenium.MutipleBrowserAndinParallel">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:MyPracticeSelenium.MutipleBrowserAndinParallel@5a45133e]" started-at="2023-07-29T19:14:59 IST" name="setup" finished-at="2023-07-29T19:15:05 IST" duration-ms="5955" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="test1()[pri:0, instance:MyPracticeSelenium.MutipleBrowserAndinParallel@5a45133e]" started-at="2023-07-29T19:15:05 IST" name="test1" finished-at="2023-07-29T19:15:09 IST" duration-ms="4683" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:MyPracticeSelenium.MutipleBrowserAndinParallel@5a45133e]" started-at="2023-07-29T19:15:09 IST" name="closeBrowser" finished-at="2023-07-29T19:15:10 IST" duration-ms="574" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- MyPracticeSelenium.MutipleBrowserAndinParallel -->
-    </test> <!-- Testonchrome -->
-    <test started-at="2023-07-29T19:14:59 IST" name="Testonedge" finished-at="2023-07-29T19:15:10 IST" duration-ms="11334">
-      <class name="MyPracticeSelenium.MutipleBrowserAndinParallel">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:MyPracticeSelenium.MutipleBrowserAndinParallel@2a265ea9]" started-at="2023-07-29T19:14:59 IST" name="setup" finished-at="2023-07-29T19:15:04 IST" duration-ms="4755" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="test1()[pri:0, instance:MyPracticeSelenium.MutipleBrowserAndinParallel@2a265ea9]" started-at="2023-07-29T19:15:04 IST" name="test1" finished-at="2023-07-29T19:15:10 IST" duration-ms="5779" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:MyPracticeSelenium.MutipleBrowserAndinParallel@2a265ea9]" started-at="2023-07-29T19:15:10 IST" name="closeBrowser" finished-at="2023-07-29T19:15:10 IST" duration-ms="622" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- MyPracticeSelenium.MutipleBrowserAndinParallel -->
-    </test> <!-- Testonedge -->
-  </suite> <!-- Suite1 -->
+    <test started-at="2023-08-25T16:53:25 IST" name="Default test" finished-at="2023-08-25T16:53:25 IST" duration-ms="29">
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
