@@ -7,8 +7,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 
-public class RahulTablePractice {
+public class RahulTablePracticeList {
 public static WebDriver driver;
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Lenovo\\Downloads\\chromedriver-win64\\chromedriver.exe");
@@ -41,7 +42,9 @@ List<String> info = getTableTotal(names,4);
 		}
 		
 		}
+		 Assert.assertEquals(total, 296,"Not equal");
 		 System.out.println("Total Amount Collected: " + total);
+		 
 		 driver.quit();
 	}
 	
@@ -51,9 +54,10 @@ List<String> info = getTableTotal(names,4);
             WebElement row = driver.findElement(By.xpath("//td[contains(text(), '"+ itemname + "')]/ancestor::tr"));
             if (row != null) {
             	
-                List<String> rowData = new ArrayList(column);
+                List <String>rowData = new ArrayList<>();
                 for (int i = 0; i < column; i++) {
                     rowData.add(row.findElement(By.xpath("./td[" + (i + 1) + "]")).getText());
+                    
                 }
                 return rowData;
             } else {
